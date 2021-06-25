@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  {{>head}}
+  <body>
+    {{>header}}
+     <div class="planet_inf">
+    <div class="planet_">
+    <h1>Planet</h1>
+    <img class="planet_images" src="{{planet.media_path}}" alt="*Planet picture">
+  </div>
+    <div class="add">
+    <p>Planet: <em>{{planet.name}}</em></p>
+    <p>Discoverer: <em>{{planet.discoverer}}</em></p>
+    <p>Sat's: <em>{{planet.sat}}</em></p>
+    <p>Mass: <em>{{planet.mass}}</em></p>
+    </div>
+   </div>
+   <p class = "p_races">Races who live on planet</p>
+   <table border="2">
+   
+
+   <tr>
+   <th>Name</th>
+   </tr>
+   {{#races}}
+   <tr>
+   <td><a href = "/races/{{_id}}">{{name}}</a></td>
+
+   </tr> 
+   {{/races}}
+   {{^races}}
+   <tr><td colspan=5 style = "text-align: center;">There no races</td></tr>
+   {{/races}}
+   </table>
+   <div class="planet_buttons">
+  <form action="/planets/addrace/{{planet._id}}" method="GET">
+  <input class = "create" type="submit" value="Add race">
+  </form>
+  <form action="/planets/deleterace/{{planet._id}}" method="GET">
+  <input class="create" type="submit" value="Delete race">
+  </form>
+  </div>
+  <div class= "planet_buttons">
+  <form action="/planets/getupdate/{{planet._id}}" method="GET">
+  <input class="create" type="submit" value="Update planet">
+  </form>
+  <form action="/planets/delete/{{planet._id}}" method="POST">
+  <input class="create" type="submit" value="Delete planet">
+ </form>
+  </div>
+  <form action="/planets/getupdatephoto/{{planet._id}}" method="GET">
+  <input class= "create" type="submit" value="Update planet photo">
+  </form>
+    {{>footer}}
+  </body>
+</html>

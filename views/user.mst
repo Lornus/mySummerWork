@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  {{>head}}
+  <body>
+    {{>header}}
+    <h1>User</h1>
+    <img class="user_images" src="{{user.avaUrl}}" alt="User picture">
+    <p>{{user.fullname}}</p>
+    <p>({{user.login}}) {{user.registeredAt}}</p>
+    <p class="Bio"> {{user.Bio}}</p>
+    <p class="user_f">All {{user.fullname}}`s planet</p>
+       <table border="1">
+    <tr>
+    <th>Name</th>
+    <th>Discoverer</th>
+      </tr>
+      {{#planets}}
+        <tr>
+          <td><a href="/planets/{{_id}}">{{name}}</a></td>
+          <td>{{discoverer}}</td>
+        </tr>
+        {{/planets}}
+        {{^planets}}
+          <tr><td colspan=3 style="text-align: center;">There no planets</td></tr>
+        {{/planets}}
+     </table>
+     <div class="user_buttons">
+    <form action="/users/addplanet/{{user._id}}" method="GET">
+    <input class="create" type="submit" value="Add planet">
+    </form>
+      <form action="/users/deleteplanet/{{user._id}}" method="GET">
+    <input class="create" type="submit" value="Delete planet">
+    </form>
+    </div>
+  {{>footer}}
+  </body>
+</html>

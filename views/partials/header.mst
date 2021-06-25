@@ -1,0 +1,16 @@
+<div>
+<img class="logo" src="/images/logo.png" alt="logo"> 
+<h1>Planets</h1>
+</div>
+<div class="menu">
+<nav>
+<ul>
+<li> <a href="/" class="{{home_link}}" class="{{index_current}}" > Home </a></li>
+<li> <a href="/users" class="{{user_link}}" class="{{user_current}}"> Users </a></li>
+<li> <a href="/planets" class="{{planet_link}}" class="{{planet_current}}"> Planets </a></li>
+<a href="/races" class="{{race_link}}" class="{{race_current}}"><li> Races </li></a>
+<li> <a href="/about" class="{{about_link}}" class="{{about_current}}"> About </a></li>
+</ul>
+</nav>
+</div>
+<hr>

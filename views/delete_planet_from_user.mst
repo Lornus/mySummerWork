@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+  {{>head}}
+  <body>
+    {{>header}}
+    <form action="/users/deleteplanet/{{user_id}}" method="POST" enctype="multipart/form-data" >
+    <p>Choose planet which you want to delete</p>
+  <div class="select_planet">
+    <select name="planets" placeholder="Choose planet">
+ {{#planets}}
+        <option value="{{_id}}">{{name}}</option>
+        {{/planets}}
+        {{^planets}}
+        There no planets
+        {{/planets}}
+  </select>
+   </div>
+   <div class="delete_planet_from_user">
+    <input class=delete type="submit" value="Delete planet">
+    </div>
+    </form>
+         {{>footer}}
+  </body>
+</html>
