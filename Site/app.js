@@ -19,7 +19,7 @@ const busboy_body_parser = require('busboy-body-parser');
 const mstRouter = require('./routes/route_mst');
 const { mustache } = require('consolidate');
 
-const PORT = Number(process.env.PORT) || 3000
+//const PORT = Number(process.env.PORT) || 3000
 
 
 
@@ -71,9 +71,9 @@ async function appStart() {
 
         console.log('App has successfully connected to the database...')
 
-        app.listen(PORT, () => {
-            console.log(`App is listening on port ${PORT}...`)
-        })
+        // app.listen(PORT, () => {
+        //     console.log(`App is listening on port ${PORT}...`)
+        // })
     } catch (err) {
         console.log('Database connection error: ', err.message)
         process.exit(1)
