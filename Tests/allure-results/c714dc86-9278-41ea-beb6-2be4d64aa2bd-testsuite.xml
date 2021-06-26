@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624727829580' stop='1624727832101'>
+    <name>Home page tests</name>
+    <title>Home page tests</title>
+    <test-cases>
+        <test-case start='1624727829580' status='broken' stop='1624727832099'>
+            <name>On home page must be "Home" button</name>
+            <title>On home page must be "Home" button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps>
+                <step start='1624727829584' status='passed' stop='1624727832029'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2c49e845-841e-4965-a2d1-21ac8fa5cf83-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='4f9d5109-3395-4698-90ce-164836ad862f-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1624727829599' status='passed' stop='1624727829674'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='98a6018c-2f2c-43ad-bb45-1e5a797840c0-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='b987357b-96ae-4402-af69-ec116a644607-attachment.json' type='application/json' size='1884'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1624727829688' status='passed' stop='1624727832006'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='1c3ec3c8-5206-42a6-8ecd-06bb9ad08f85-attachment.json' type='application/json' size='84'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624727832034' status='passed' stop='1624727832061'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8c7f9206-9166-41ef-bcdb-1a6036cbc1be-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='58a2019e-bbb3-401d-86a0-72ee60b12624-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1624727832065' status='passed' stop='1624727832094'>
+                    <name>GET /session/:sessionId/element/b20ace79-fec5-40cb-9071-e8e80799c207/text</name>
+                    <title>GET /session/:sessionId/element/b20ace79-fec5-40cb-9071-e8e80799c207/text</title>
+                    <attachments>
+                        <attachment title='Response' source='81d2309a-1127-47ed-ae08-b095f0b7a8b7-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1624727832096' status='broken' stop='1624727832099'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).toBe is not a function</message>
+                <stack-trace>TypeError: (intermediate value).toBe is not a function
+                    at Context.&lt;anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:8:67)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)
+                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
