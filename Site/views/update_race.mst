@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html>
+  {{>head}}
+  <body>
+    {{>header}}
+    <form action="/races/getupdate/{{id}}" method="POST" enctype="multipart/form-data" >
+    Name:<br>
+    <input type="text" name="name" value="{{race.name}}" required><br>
+    Strength:<br>
+    <input type="number" name="strength" value={{race.strength}} max = 20 min =0 required><br>
+    Intellect:<br>
+    <input class="number" type="number" name="intellect" value={{race.intellect}} max=25 min=0 required><br>
+    Dexterity:<br>
+    <input type="number" name="dexterity" value={{race.dexterity}} max=22 min=0 required><br>
+    <input class=create type="submit" value="Update race">
+    </form>
+         {{>footer}}
+  </body>
+</html>

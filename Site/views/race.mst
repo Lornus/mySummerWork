@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {{>head}}
+  <body>
+    {{>header}}
+    <div class="race_inf">
+    <div class="race_">
+    <h1>Race</h1>
+    <img class="race_images" src="{{race.media_path}}" alt="*Race picture">
+    </div>
+    <div class="add">
+    <p>Race <em>{{race.name}}</em></p>
+    <p>Strength <em>{{race.strength}}</em></p>
+    <p>Intellect <em>{{race.intellect}}</em></p>
+    <p>Dexterity <em>{{race.dexterity}}</em></p>
+    </div>
+    </div>
+    <div class="race_buttons">
+    <form action="/races/getupdate/{{race._id}}" method="GET" >
+    <input class="create" type="submit" value="Update race">
+    </form>
+    <form action="/races/{{race._id}}" method="POST" >
+    <input class="create" type="submit" value="Delete race">
+    </form>
+    </div>
+    <form action="/races/getupdatephoto/{{race._id}}" method="GET" >
+    <input class="create" type="submit" value="Update race photo">
+    </form>
+    {{>footer}}
+  </body>
+</html>
