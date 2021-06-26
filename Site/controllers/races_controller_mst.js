@@ -131,7 +131,7 @@ module.exports = {
         
         res.redirect('/races/' + id);}
         catch (err) {
-            res.status(500).send({ error: 'Cannot get races by id' })
+            res.status(404).send({ error: 'Cannot get races by id' })
         }
     },
 

@@ -49,7 +49,7 @@
  </form>
   </div>
   <form action="/planets/getupdatephoto/{{planet._id}}" method="GET">
-  <input class= "create" type="submit" value="Update planet photo">
+  <input class= "create" type="submit" value="Update planet photo?">
   </form>
     {{>footer}}
   </body>
