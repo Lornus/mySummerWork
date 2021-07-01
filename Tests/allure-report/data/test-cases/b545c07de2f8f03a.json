@@ -1,0 +1,188 @@
+{
+  "uid" : "b545c07de2f8f03a",
+  "name" : "On home page must be \"Planets\" button",
+  "fullName" : "Home page tests.On home page must be \"Planets\" button",
+  "historyId" : "67dfe6e82c889909d5392323e1c1e468",
+  "time" : {
+    "start" : 1625168026072,
+    "stop" : 1625168026138,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625168026073,
+        "stop" : 1625168026089,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3f7720a89eadc73",
+        "name" : "Request",
+        "source" : "c3f7720a89eadc73.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "26b2466839255d26",
+        "name" : "Response",
+        "source" : "26b2466839255d26.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/f6716ccb-3318-4ef9-929c-adda6697fcf4/attribute/href",
+      "time" : {
+        "start" : 1625168026096,
+        "stop" : 1625168026108,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "805a43eaa0747c9b",
+        "name" : "Response",
+        "source" : "805a43eaa0747c9b.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625168026109,
+        "stop" : 1625168026119,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "176955e1b02a170",
+        "name" : "Request",
+        "source" : "176955e1b02a170.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "5d9c0674fef1ac40",
+        "name" : "Response",
+        "source" : "5d9c0674fef1ac40.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/f6716ccb-3318-4ef9-929c-adda6697fcf4/text",
+      "time" : {
+        "start" : 1625168026122,
+        "stop" : 1625168026138,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edefa4c159298cfa",
+        "name" : "Response",
+        "source" : "edefa4c159298cfa.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be \"Planets\" button"
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ea7b4d1fab104eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167971648,
+        "stop" : 1625167971711,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "b1d011bcb2d8aba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167882884,
+        "stop" : 1625167883005,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "cb893b9b15898947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167648960,
+        "stop" : 1625167649027,
+        "duration" : 67
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b545c07de2f8f03a.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

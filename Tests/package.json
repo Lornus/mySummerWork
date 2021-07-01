@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run ./wdio.conf.js",
+    "report" : "allure generate --clean && allure open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.7.4",
+    "allure-commandline": "^2.13.8",
     "chai": "^4.3.4",
-    "mocha": "^9.0.1"
+    "mocha": "^9.0.1",
+    "mochawesome-report-generator": "^2.3.2"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^7.7.3",
@@ -19,6 +22,7 @@
     "@wdio/mocha-framework": "^7.7.4",
     "@wdio/spec-reporter": "^7.7.3",
     "chromedriver": "^91.0.1",
-    "wdio-chromedriver-service": "^7.1.1"
+    "wdio-chromedriver-service": "^7.1.1",
+    "wdio-mochawesome-reporter": "^4.0.0"
   }
 }

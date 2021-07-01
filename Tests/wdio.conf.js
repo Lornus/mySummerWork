@@ -135,7 +135,12 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec','junit',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec',['allure',{
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
+        }
+      ]
+    ],
 
 
     
@@ -223,9 +228,9 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
-            browser.takeScreenshot();
+            await browser.takeScreenshot();
         }
     },
 

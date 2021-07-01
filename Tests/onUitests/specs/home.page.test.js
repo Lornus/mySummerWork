@@ -6,52 +6,46 @@ describe('Home page tests', () => {
     it('On home page must be "Home" button', async () => {
         await browser.url('https://npplanets.herokuapp.com/')
 
-        await assert(await (await homePage.HomePageBtn).isDisplayed())
-        await assert.equal(await (await homePage.HomePageBtn).getAttribute("href"), "/")
-        await assert.equal(await (await homePage.HomePageBtn).getText(), "Home")
+        expect(await homePage.checkHomePageDisplayed).toBeTruthy()
+        expect(await homePage.getHomePageAttribute("href")).toBe( "/")
+        expect(await homePage.getHomePageText()).toBe( "Home")
 
     })
 
     it('On home page must be "Users" button', async () => {
-        assert(await (await homePage.UserPageBtn).isClickable())
-        assert(await (await homePage.UserPageBtn).isDisplayed())
-        assert.equal(await (await homePage.UserPageBtn).getAttribute("href"), "/users")
-        assert.equal(await (await homePage.UserPageBtn).getText(), "Users")
+        expect(await homePage.checkUserBtnClickable()).toBeTruthy()
+        expect(await homePage.getUserBtnAttribute("href")).toBe("/users")
+        expect (await homePage.getUserBtnText()).toBe( "Users")
     })
 
     it('On home page must be "Planets" button', async () => {
-         assert(await (await homePage.PlanetsPageBtn).isClickable())
-         assert(await (await homePage.PlanetsPageBtn).isDisplayed())
-         assert.equal(await (await homePage.PlanetsPageBtn).getAttribute("href"), "/planets")
-         assert.equal(await (await homePage.PlanetsPageBtn).getText(), "Planets")
+        expect(await homePage.checkPlanetsBtnClickable).toBeTruthy()
+        expect(await homePage.getPlanetsBtnAttribute("href")).toBe("/planets")
+        expect(await homePage.getPlanetsBtnText()).toBe("Planets")
     });
+
     it('On home page must be "Races" button', async () => {
-         assert(await (await homePage.RacesPageBtn).isClickable())
-         assert(await (await homePage.RacesPageBtn).isDisplayed())
-         assert.equal(await (await homePage.RacesPageBtn).getAttribute("href"), "/races")
-         assert.equal(await (await homePage.RacesPageBtn).getText(), "Races")
+        expect(await homePage.checkRacesBtnClickable()).toBeTruthy()
+        expect(await homePage.getRacesBtnAttribute("href")).toBe( "/races")
+        expect(await homePage.getRacesBtnText()).toBe( "Races")
 
     });
     it('On home page must be "About" button', async () => {
-        assert(await (await homePage.AboutPageBtn).isClickable())
-        assert(await (await homePage.AboutPageBtn).isDisplayed())
-        assert.equal(await (await homePage.AboutPageBtn).getAttribute("href"), "/about")
-        assert.equal(await (await homePage.AboutPageBtn).getText(), "About")
+        expect(await homePage.checkAboutBtnClickable()).toBeTruthy()
+        expect(await homePage.getAboutBtnAttribute("href")).toBe( "/about")
+        expect(await homePage.getAboutBtnText()).toBe("About")
 
     });
 
     it('On home page must be footer with text "Planets"', async () => {
-      assert(await (await homePage.Footer).isDisplayed())                                      
-      assert.equal(await (await homePage.Footer).getText(), "🔞🔞Planets🔞🔞")
+        expect(await homePage.checkFooterDisplayed())
+        expect(await homePage.getFooterText()).toBe("🔞🔞Planets🔞🔞")
     });
 
-     it('On home page displayed all pictures ', async () => {
-       assert(await (await homePage.Logo).isDisplayed())
-        await (await homePage.PhotoOnHomePage).isDisplayed()
-        console.log("SRC one: ",await (await homePage.PhotoOnHomePage).getAttribute('src'))
-
-     });
-
-});
+        it('Displaying all pages above footer', async () => {
+           const all =  await homePage.getAllDownImages()
+            return all
+    });
+})
 
 
