@@ -38,13 +38,13 @@ describe('Home page tests', () => {
     });
 
     it('On home page must be footer with text "Planets"', async () => {
-        expect(await homePage.checkFooterDisplayed())
+        expect(await homePage.checkFooterDisplayed()).toBeTruthy()
         expect(await homePage.getFooterText()).toBe("🔞🔞Planets🔞🔞")
     });
 
         it('Displaying all pages above footer', async () => {
-           const all =  await homePage.getAllDownImages()
-            return all
+           const imagesDisplayed =  await homePage.getAllDownImages()
+            return imagesDisplayed
     });
 })
 
