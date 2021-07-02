@@ -7,7 +7,7 @@ Hi! This is repo with
 Allure html
 
 
-#Lounching tests 
+# Lounching tests 
 1. Install node (https://nodejs.org/en/download/) if you don't have.
 2. Clone this repo
 3. npm install 
