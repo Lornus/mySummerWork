@@ -1,26 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E1\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E1\uD83D\uDD1E\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
       "children" : [ {
         "name" : "On home page must be footer with text \"Planets\"",
-        "uid" : "d16d8909630078f4",
-        "parentUid" : "2c5e71bca0f6577b6fe67534a688e5c9",
+        "uid" : "544051ff2df6f618",
+        "parentUid" : "452fd6b256f94f58e47ab4f4af4c968b",
         "status" : "failed",
         "time" : {
-          "start" : 1625168026330,
-          "stop" : 1625168027233,
-          "duration" : 903
+          "start" : 1626014408486,
+          "stop" : 1626014409275,
+          "duration" : 789
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-91.0.4472.114" ]
       } ],
-      "uid" : "2c5e71bca0f6577b6fe67534a688e5c9"
+      "uid" : "452fd6b256f94f58e47ab4f4af4c968b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }

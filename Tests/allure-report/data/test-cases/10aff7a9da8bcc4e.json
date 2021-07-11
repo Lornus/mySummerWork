@@ -1,0 +1,647 @@
+{
+  "uid" : "10aff7a9da8bcc4e",
+  "name" : "On home page must be footer with text \"Planets\"",
+  "fullName" : "Home page tests.On home page must be footer with text \"Planets\"",
+  "historyId" : "a96ae1d08cb1936e4a5d1dbe5d01c87f",
+  "time" : {
+    "start" : 1625223281142,
+    "stop" : 1625223291252,
+    "duration" : 10110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625223281143,
+        "stop" : 1625223281167,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21b1996e6a225587",
+        "name" : "Request",
+        "source" : "21b1996e6a225587.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "19937f32aed40ceb",
+        "name" : "Response",
+        "source" : "19937f32aed40ceb.json",
+        "type" : "application/json",
+        "size" : 1859
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625223281169,
+        "stop" : 1625223281182,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf38e5b30121349d",
+        "name" : "Request",
+        "source" : "bf38e5b30121349d.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a9521de363637cb1",
+        "name" : "Response",
+        "source" : "a9521de363637cb1.json",
+        "type" : "application/json",
+        "size" : 1859
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625223281185,
+        "stop" : 1625223281201,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4267c506ca6d94d",
+        "name" : "Request",
+        "source" : "d4267c506ca6d94d.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "7d6fdb94aa29b347",
+        "name" : "Response",
+        "source" : "7d6fdb94aa29b347.json",
+        "type" : "application/json",
+        "size" : 1859
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223281206,
+        "stop" : 1625223281241,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "179d1ace582342ab",
+        "name" : "Request",
+        "source" : "179d1ace582342ab.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "ebef30d593160280",
+        "name" : "Response",
+        "source" : "ebef30d593160280.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223281711,
+        "stop" : 1625223281724,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69558ca73b398cca",
+        "name" : "Request",
+        "source" : "69558ca73b398cca.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "9dbdab8220692cff",
+        "name" : "Response",
+        "source" : "9dbdab8220692cff.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223282212,
+        "stop" : 1625223282233,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cb28ed576f70776",
+        "name" : "Request",
+        "source" : "5cb28ed576f70776.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c7bfe420d881c0fb",
+        "name" : "Response",
+        "source" : "c7bfe420d881c0fb.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223282709,
+        "stop" : 1625223282720,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f316e1b070f70998",
+        "name" : "Request",
+        "source" : "f316e1b070f70998.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "f0cf56e48e8ff448",
+        "name" : "Response",
+        "source" : "f0cf56e48e8ff448.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223283211,
+        "stop" : 1625223283244,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f34dd80e59190b2",
+        "name" : "Request",
+        "source" : "1f34dd80e59190b2.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c0afd6d39c26d34a",
+        "name" : "Response",
+        "source" : "c0afd6d39c26d34a.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223283708,
+        "stop" : 1625223283725,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b05b54e2d92f13fc",
+        "name" : "Request",
+        "source" : "b05b54e2d92f13fc.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "2150f011214f41b3",
+        "name" : "Response",
+        "source" : "2150f011214f41b3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223284213,
+        "stop" : 1625223284224,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "722d10c889ec3abf",
+        "name" : "Request",
+        "source" : "722d10c889ec3abf.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "68c2b47c52c17feb",
+        "name" : "Response",
+        "source" : "68c2b47c52c17feb.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223284711,
+        "stop" : 1625223284730,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11758f0e6b7a2ae1",
+        "name" : "Request",
+        "source" : "11758f0e6b7a2ae1.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c6312a9c6804200b",
+        "name" : "Response",
+        "source" : "c6312a9c6804200b.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223285209,
+        "stop" : 1625223291252,
+        "duration" : 6043
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1625223285711,
+          "stop" : 1625223291252,
+          "duration" : 5541
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/elements",
+          "time" : {
+            "start" : 1625223286212,
+            "stop" : 1625223291252,
+            "duration" : 5040
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1625223286709,
+              "stop" : 1625223291252,
+              "duration" : 4543
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1625223287210,
+                "stop" : 1625223291252,
+                "duration" : 4042
+              },
+              "status" : "broken",
+              "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/elements",
+                "time" : {
+                  "start" : 1625223287710,
+                  "stop" : 1625223291252,
+                  "duration" : 3542
+                },
+                "status" : "broken",
+                "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                "steps" : [ {
+                  "name" : "POST /session/:sessionId/elements",
+                  "time" : {
+                    "start" : 1625223288210,
+                    "stop" : 1625223291252,
+                    "duration" : 3042
+                  },
+                  "status" : "broken",
+                  "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                  "steps" : [ {
+                    "name" : "POST /session/:sessionId/elements",
+                    "time" : {
+                      "start" : 1625223288709,
+                      "stop" : 1625223291252,
+                      "duration" : 2543
+                    },
+                    "status" : "broken",
+                    "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                    "steps" : [ {
+                      "name" : "POST /session/:sessionId/elements",
+                      "time" : {
+                        "start" : 1625223289240,
+                        "stop" : 1625223291252,
+                        "duration" : 2012
+                      },
+                      "status" : "broken",
+                      "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                      "steps" : [ {
+                        "name" : "POST /session/:sessionId/elements",
+                        "time" : {
+                          "start" : 1625223289710,
+                          "stop" : 1625223291252,
+                          "duration" : 1542
+                        },
+                        "status" : "broken",
+                        "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                        "steps" : [ {
+                          "name" : "POST /session/:sessionId/elements",
+                          "time" : {
+                            "start" : 1625223290209,
+                            "stop" : 1625223291252,
+                            "duration" : 1043
+                          },
+                          "status" : "broken",
+                          "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                          "steps" : [ {
+                            "name" : "POST /session/:sessionId/elements",
+                            "time" : {
+                              "start" : 1625223290709,
+                              "stop" : 1625223291252,
+                              "duration" : 543
+                            },
+                            "status" : "broken",
+                            "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                            "steps" : [ {
+                              "name" : "GET /session/:sessionId/screenshot",
+                              "time" : {
+                                "start" : 1625223291210,
+                                "stop" : 1625223291252,
+                                "duration" : 42
+                              },
+                              "status" : "broken",
+                              "statusMessage" : "Error: Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getFooterText (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:109:22)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:16)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                              "steps" : [ ],
+                              "attachments" : [ ],
+                              "parameters" : [ ],
+                              "stepsCount" : 0,
+                              "attachmentsCount" : 0,
+                              "shouldDisplayMessage" : true,
+                              "hasContent" : true
+                            } ],
+                            "attachments" : [ {
+                              "uid" : "5c327c159df2b47a",
+                              "name" : "Request",
+                              "source" : "5c327c159df2b47a.json",
+                              "type" : "application/json",
+                              "size" : 59
+                            } ],
+                            "parameters" : [ ],
+                            "stepsCount" : 1,
+                            "attachmentsCount" : 1,
+                            "shouldDisplayMessage" : false,
+                            "hasContent" : true
+                          } ],
+                          "attachments" : [ {
+                            "uid" : "799aa41bf4ce34d4",
+                            "name" : "Request",
+                            "source" : "799aa41bf4ce34d4.json",
+                            "type" : "application/json",
+                            "size" : 59
+                          } ],
+                          "parameters" : [ ],
+                          "stepsCount" : 2,
+                          "attachmentsCount" : 2,
+                          "shouldDisplayMessage" : false,
+                          "hasContent" : true
+                        } ],
+                        "attachments" : [ {
+                          "uid" : "e7c06f14036a8e91",
+                          "name" : "Request",
+                          "source" : "e7c06f14036a8e91.json",
+                          "type" : "application/json",
+                          "size" : 59
+                        } ],
+                        "parameters" : [ ],
+                        "stepsCount" : 3,
+                        "attachmentsCount" : 3,
+                        "shouldDisplayMessage" : false,
+                        "hasContent" : true
+                      } ],
+                      "attachments" : [ {
+                        "uid" : "c25993a73ee6fd41",
+                        "name" : "Request",
+                        "source" : "c25993a73ee6fd41.json",
+                        "type" : "application/json",
+                        "size" : 59
+                      } ],
+                      "parameters" : [ ],
+                      "stepsCount" : 4,
+                      "attachmentsCount" : 4,
+                      "shouldDisplayMessage" : false,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ {
+                      "uid" : "ee89fb83d0f4b396",
+                      "name" : "Request",
+                      "source" : "ee89fb83d0f4b396.json",
+                      "type" : "application/json",
+                      "size" : 59
+                    } ],
+                    "parameters" : [ ],
+                    "stepsCount" : 5,
+                    "attachmentsCount" : 5,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ {
+                    "uid" : "f91a665e6cf0b2a9",
+                    "name" : "Request",
+                    "source" : "f91a665e6cf0b2a9.json",
+                    "type" : "application/json",
+                    "size" : 59
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 6,
+                  "attachmentsCount" : 6,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ {
+                  "uid" : "26fed1a91a461d4d",
+                  "name" : "Request",
+                  "source" : "26fed1a91a461d4d.json",
+                  "type" : "application/json",
+                  "size" : 59
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 7,
+                "attachmentsCount" : 7,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "3e9a838b914a6cf7",
+                "name" : "Request",
+                "source" : "3e9a838b914a6cf7.json",
+                "type" : "application/json",
+                "size" : 59
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 8,
+              "attachmentsCount" : 8,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "598d8cdfea172619",
+              "name" : "Request",
+              "source" : "598d8cdfea172619.json",
+              "type" : "application/json",
+              "size" : 59
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 9,
+            "attachmentsCount" : 9,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "e36630b0c00f6da8",
+            "name" : "Request",
+            "source" : "e36630b0c00f6da8.json",
+            "type" : "application/json",
+            "size" : 59
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 10,
+          "attachmentsCount" : 10,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "bb96b4914d76134e",
+          "name" : "Request",
+          "source" : "bb96b4914d76134e.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 11,
+        "attachmentsCount" : 11,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e251723fa1acd6",
+        "name" : "Request",
+        "source" : "e251723fa1acd6.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 34,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be footer with text \"Planets\""
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10aff7a9da8bcc4e.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

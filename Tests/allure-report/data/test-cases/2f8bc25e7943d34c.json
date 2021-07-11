@@ -1,0 +1,243 @@
+{
+  "uid" : "2f8bc25e7943d34c",
+  "name" : "On home page must be \"Races\" button",
+  "fullName" : "Home page tests.On home page must be \"Races\" button",
+  "historyId" : "40f8e49b7b939e7fa3e5fed370a5f9cd",
+  "time" : {
+    "start" : 1625168026139,
+    "stop" : 1625168026230,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625168026139,
+        "stop" : 1625168026153,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3318b9cb9c77a577",
+        "name" : "Request",
+        "source" : "3318b9cb9c77a577.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "5bf86d2050206874",
+        "name" : "Response",
+        "source" : "5bf86d2050206874.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1625168026156,
+        "stop" : 1625168026169,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96c1dae5d373bde",
+        "name" : "Request",
+        "source" : "96c1dae5d373bde.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "f6b283714e076ebb",
+        "name" : "Response",
+        "source" : "f6b283714e076ebb.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1625168026170,
+        "stop" : 1625168026180,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c1eade238c8760d",
+        "name" : "Request",
+        "source" : "8c1eade238c8760d.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "306abcd0a48eb65",
+        "name" : "Response",
+        "source" : "306abcd0a48eb65.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625168026181,
+        "stop" : 1625168026193,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "afc18eb322426382",
+        "name" : "Request",
+        "source" : "afc18eb322426382.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "ae88ffc180967f55",
+        "name" : "Response",
+        "source" : "ae88ffc180967f55.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/3753844f-26da-4ed5-92f8-6c6a965fc1ca/attribute/href",
+      "time" : {
+        "start" : 1625168026196,
+        "stop" : 1625168026202,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdd7f921619fd124",
+        "name" : "Response",
+        "source" : "cdd7f921619fd124.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625168026203,
+        "stop" : 1625168026211,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d4d540542b4738b",
+        "name" : "Request",
+        "source" : "6d4d540542b4738b.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "4d190f966dc163ff",
+        "name" : "Response",
+        "source" : "4d190f966dc163ff.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/3753844f-26da-4ed5-92f8-6c6a965fc1ca/text",
+      "time" : {
+        "start" : 1625168026215,
+        "stop" : 1625168026229,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3baa563da7bd4091",
+        "name" : "Response",
+        "source" : "3baa563da7bd4091.json",
+        "type" : "application/json",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be \"Races\" button"
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f8bc25e7943d34c.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

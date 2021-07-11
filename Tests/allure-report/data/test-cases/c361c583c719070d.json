@@ -1,0 +1,162 @@
+{
+  "uid" : "c361c583c719070d",
+  "name" : "On home page must be \"Planets\" button",
+  "fullName" : "Home page tests.On home page must be \"Planets\" button",
+  "historyId" : "67dfe6e82c889909d5392323e1c1e468",
+  "time" : {
+    "start" : 1626014309920,
+    "stop" : 1626014309969,
+    "duration" : 49
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626014309921,
+        "stop" : 1626014309934,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ce5388febc065c2",
+        "name" : "Request",
+        "source" : "6ce5388febc065c2.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "d0d6ec866e0b64b1",
+        "name" : "Response",
+        "source" : "d0d6ec866e0b64b1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2b056f08-e653-47e1-9be8-2f1ed338625e/attribute/href",
+      "time" : {
+        "start" : 1626014309936,
+        "stop" : 1626014309943,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abe0808054a30e9e",
+        "name" : "Response",
+        "source" : "abe0808054a30e9e.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626014309944,
+        "stop" : 1626014309954,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7c7116e30f6fd4c",
+        "name" : "Request",
+        "source" : "b7c7116e30f6fd4c.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "3f47f6bd8696cf43",
+        "name" : "Response",
+        "source" : "3f47f6bd8696cf43.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2b056f08-e653-47e1-9be8-2f1ed338625e/text",
+      "time" : {
+        "start" : 1626014309957,
+        "stop" : 1626014309969,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "580f8362dd741b6c",
+        "name" : "Response",
+        "source" : "580f8362dd741b6c.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be \"Planets\" button"
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c361c583c719070d.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

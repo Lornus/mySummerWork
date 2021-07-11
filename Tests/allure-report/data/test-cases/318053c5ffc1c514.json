@@ -1,0 +1,168 @@
+{
+  "uid" : "318053c5ffc1c514",
+  "name" : "On home page must be footer with text \"Planets\"",
+  "fullName" : "Home page tests.On home page must be footer with text \"Planets\"",
+  "historyId" : "a96ae1d08cb1936e4a5d1dbe5d01c87f",
+  "time" : {
+    "start" : 1625223334571,
+    "stop" : 1625223334685,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625223334572,
+        "stop" : 1625223334604,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bb3759b418eafbb",
+        "name" : "Request",
+        "source" : "5bb3759b418eafbb.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "8ac9ccf43803a780",
+        "name" : "Response",
+        "source" : "8ac9ccf43803a780.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1625223334621,
+        "stop" : 1625223334637,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f7c53c46301e0bb",
+        "name" : "Request",
+        "source" : "9f7c53c46301e0bb.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "a0fd86c846f75a26",
+        "name" : "Response",
+        "source" : "a0fd86c846f75a26.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625223334639,
+        "stop" : 1625223334658,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c191658de602a598",
+        "name" : "Request",
+        "source" : "c191658de602a598.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "65a9dc12663ceb18",
+        "name" : "Response",
+        "source" : "65a9dc12663ceb18.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d37d137c-0250-4854-80f7-8dc858b4d233/text",
+      "time" : {
+        "start" : 1625223334661,
+        "stop" : 1625223334684,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c6aa4b531c2bd29",
+        "name" : "Response",
+        "source" : "5c6aa4b531c2bd29.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be footer with text \"Planets\""
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "318053c5ffc1c514.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

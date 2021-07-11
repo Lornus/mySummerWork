@@ -1,5 +1,25 @@
 [ {
-  "uid" : "a16080461342ba0b",
+  "uid" : "8257470c3974a572",
+  "name" : "Displaying all pages above footer",
+  "time" : {
+    "start" : 1626014409276,
+    "stop" : 1626014409334,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5e76c2bebb5f151",
+  "name" : "On home page must be \"Home\" button",
+  "time" : {
+    "start" : 1626014406657,
+    "stop" : 1626014408034,
+    "duration" : 1377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51c5d308f3c5b0f",
   "name" : "Have get attributes from pages",
   "time" : {
     "start" : 1625167649268,
@@ -9,72 +29,52 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b545c07de2f8f03a",
+  "uid" : "1cac6d401353ea79",
   "name" : "On home page must be \"Planets\" button",
   "time" : {
-    "start" : 1625168026072,
-    "stop" : 1625168026138,
-    "duration" : 66
+    "start" : 1626014408141,
+    "stop" : 1626014408287,
+    "duration" : 146
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d16d8909630078f4",
+  "uid" : "544051ff2df6f618",
   "name" : "On home page must be footer with text \"Planets\"",
   "time" : {
-    "start" : 1625168026330,
-    "stop" : 1625168027233,
-    "duration" : 903
+    "start" : 1626014408486,
+    "stop" : 1626014409275,
+    "duration" : 789
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "b78e24041ab6beb1",
-  "name" : "On home page must be \"Users\" button",
-  "time" : {
-    "start" : 1625168025971,
-    "stop" : 1625168026072,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8bd8cff947d7bbb",
-  "name" : "Displaying all pages above footer",
-  "time" : {
-    "start" : 1625168027234,
-    "stop" : 1625168027292,
-    "duration" : 58
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9eb6a2650f10cde3",
-  "name" : "On home page must be \"About\" button",
-  "time" : {
-    "start" : 1625168026230,
-    "stop" : 1625168026330,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f553e456291cd0b",
-  "name" : "On home page must be \"Home\" button",
-  "time" : {
-    "start" : 1625168023510,
-    "stop" : 1625168025971,
-    "duration" : 2461
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2825fb2c939627",
+  "uid" : "f4a3a004e3ea864b",
   "name" : "On home page must be \"Races\" button",
   "time" : {
-    "start" : 1625168026139,
-    "stop" : 1625168026230,
-    "duration" : 91
+    "start" : 1626014408288,
+    "stop" : 1626014408397,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd49572812cf5bbe",
+  "name" : "On home page must be \"About\" button",
+  "time" : {
+    "start" : 1626014408397,
+    "stop" : 1626014408486,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f3fee2c9dca41e0",
+  "name" : "On home page must be \"Users\" button",
+  "time" : {
+    "start" : 1626014408034,
+    "stop" : 1626014408140,
+    "duration" : 106
   },
   "status" : "passed",
   "severity" : "normal"

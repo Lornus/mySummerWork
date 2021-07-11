@@ -1,0 +1,108 @@
+{
+  "uid" : "1e2f113b9e11081f",
+  "name" : "Displaying all pages above footer",
+  "fullName" : "Home page tests.Displaying all pages above footer",
+  "historyId" : "4fc7a5d599f2b839b3380cdf021ff3b8",
+  "time" : {
+    "start" : 1625223291253,
+    "stop" : 1625223291356,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)",
+  "statusTrace" : "no such window: no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)\n                    at Object.getErrorFromResponseBody (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/utils.js:189:12)\n                    at WebDriverRequest._request (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async Browser.$$ (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/commands/browser/$$.js:53:17)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getAllDownImages (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:120:45)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:46:25)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)",
+    "statusTrace" : "no such window: no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)\n                    at Object.getErrorFromResponseBody (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/utils.js:189:12)\n                    at WebDriverRequest._request (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async Browser.$$ (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/commands/browser/$$.js:53:17)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getAllDownImages (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:120:45)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:46:25)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625223291254,
+        "stop" : 1625223291356,
+        "duration" : 102
+      },
+      "status" : "broken",
+      "statusMessage" : "no such window: no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)\n                    at Object.getErrorFromResponseBody (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/utils.js:189:12)\n                    at WebDriverRequest._request (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async Browser.$$ (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/commands/browser/$$.js:53:17)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getAllDownImages (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:120:45)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:46:25)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1625223291311,
+          "stop" : 1625223291356,
+          "duration" : 45
+        },
+        "status" : "broken",
+        "statusMessage" : "no such window: no such window: window was already closed\n                  (Session info: chrome=91.0.4472.114)\n                    at Object.getErrorFromResponseBody (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/utils.js:189:12)\n                    at WebDriverRequest._request (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriver/build/request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async Browser.$$ (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/webdriverio/build/commands/browser/$$.js:53:17)\n                    at async Browser.wrapCommandFn (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async HomePage.getAllDownImages (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/pageobjects/home.page.js:120:45)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:46:25)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "3e2db79b29bafb10",
+        "name" : "Request",
+        "source" : "3e2db79b29bafb10.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Displaying all pages above footer"
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e2f113b9e11081f.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

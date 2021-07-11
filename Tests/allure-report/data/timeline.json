@@ -1,102 +1,101 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
       "name" : "On home page must be \"About\" button",
-      "uid" : "534be1524e45f14f",
+      "uid" : "3b8dcccce553e7fb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1625167971797,
-        "stop" : 1625167971904,
-        "duration" : 107
+        "start" : 1625222510675,
+        "stop" : 1625222511379,
+        "duration" : 704
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "Displaying all pages above footer",
-      "uid" : "ac24f0817d7e73ac",
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "1d6c8d372fd39643",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167972069,
-        "stop" : 1625167973138,
-        "duration" : 1069
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Displaying all pages above footer",
-      "uid" : "caa7ec23f303ec14",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167883518,
-        "stop" : 1625167883582,
-        "duration" : 64
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Planets\" button",
-      "uid" : "b545c07de2f8f03a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625168026072,
-        "stop" : 1625168026138,
-        "duration" : 66
+        "start" : 1625167649027,
+        "stop" : 1625167649118,
+        "duration" : 91
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"Users\" button",
-      "uid" : "fcb072441dd0b1d6",
+      "uid" : "426337498506d2d0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1625167882814,
-        "stop" : 1625167882884,
-        "duration" : 70
+        "start" : 1625223268977,
+        "stop" : 1625223269345,
+        "duration" : 368
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "On home page must be \"Planets\" button",
-      "uid" : "b1d011bcb2d8aba5",
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "109bf261020b3c0d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167882884,
-        "stop" : 1625167883005,
-        "duration" : 121
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Planets\" button",
-      "uid" : "cb893b9b15898947",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167648960,
-        "stop" : 1625167649027,
-        "duration" : 67
+        "start" : 1625168100667,
+        "stop" : 1625168100742,
+        "duration" : 75
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"Home\" button",
-      "uid" : "7f553e456291cd0b",
+      "uid" : "a5780e94c3cd5d8b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168097924,
+        "stop" : 1625168100389,
+        "duration" : 2465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "db120e4c9070c44d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168100742,
+        "stop" : 1625168100786,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "50fa0c9d225887d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625223280525,
+        "stop" : 1625223281141,
+        "duration" : 616
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "edc71fe23340a9df",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -108,21 +107,99 @@
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "On home page must be \"About\" button",
-      "uid" : "9eb6a2650f10cde3",
+      "name" : "Have get attributes from pages",
+      "uid" : "51c5d308f3c5b0f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625168026230,
-        "stop" : 1625168026330,
-        "duration" : 100
+        "start" : 1625167649268,
+        "stop" : 1625167649401,
+        "duration" : 133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "5309589add04e14c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625223268394,
+        "stop" : 1625223268973,
+        "duration" : 579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "427b51b8e0555465",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014310140,
+        "stop" : 1626014310273,
+        "duration" : 133
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"Planets\" button",
-      "uid" : "ea7b4d1fab104eb7",
+      "uid" : "c361c583c719070d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014309920,
+        "stop" : 1626014309969,
+        "duration" : 49
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "b9e88429dd01191e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014309969,
+        "stop" : 1626014310051,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "147ea2de70b8b4ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167882814,
+        "stop" : 1625167882884,
+        "duration" : 70
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "d9516f0fc725dcae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167969587,
+        "stop" : 1625167971559,
+        "duration" : 1972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "e0c27c93c3153b35",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -135,59 +212,20 @@
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be footer with text \"Planets\"",
-      "uid" : "73f92e517bd64399",
+      "uid" : "b2394c241f1f1056",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1625167883364,
-        "stop" : 1625167883517,
-        "duration" : 153
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Displaying all pages above footer",
-      "uid" : "d8bd8cff947d7bbb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625168027234,
-        "stop" : 1625168027292,
-        "duration" : 58
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Races\" button",
-      "uid" : "6de1d980f16ebccf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167649027,
-        "stop" : 1625167649118,
-        "duration" : 91
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be footer with text \"Planets\"",
-      "uid" : "d16d8909630078f4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1625168026330,
-        "stop" : 1625168027233,
-        "duration" : 903
+        "start" : 1625167971905,
+        "stop" : 1625167972066,
+        "duration" : 161
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"About\" button",
-      "uid" : "60951db503fdddbf",
+      "uid" : "2d5e14b52fec3230",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -199,99 +237,34 @@
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "On home page must be \"Races\" button",
-      "uid" : "29a46181b516f245",
+      "name" : "Displaying all pages above footer",
+      "uid" : "9f3fc2aff80721bc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167971711,
-        "stop" : 1625167971797,
-        "duration" : 86
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Races\" button",
-      "uid" : "2825fb2c939627",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625168026139,
-        "stop" : 1625168026230,
-        "duration" : 91
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Users\" button",
-      "uid" : "3a4b0bbe5018b1c2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167971559,
-        "stop" : 1625167971648,
-        "duration" : 89
+        "start" : 1625167883518,
+        "stop" : 1625167883582,
+        "duration" : 64
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"Home\" button",
-      "uid" : "f8b8d3bee61fca3f",
+      "uid" : "a027763b0a5e49e7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167881309,
-        "stop" : 1625167882814,
-        "duration" : 1505
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Users\" button",
-      "uid" : "321c9e2a4b746c1d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167648875,
-        "stop" : 1625167648960,
-        "duration" : 85
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Home\" button",
-      "uid" : "c215d3f5dc49595e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625167969587,
-        "stop" : 1625167971559,
-        "duration" : 1972
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "On home page must be \"Users\" button",
-      "uid" : "b78e24041ab6beb1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625168025971,
-        "stop" : 1625168026072,
-        "duration" : 101
+        "start" : 1625223322341,
+        "stop" : 1625223334075,
+        "duration" : 11734
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"Races\" button",
-      "uid" : "8f36b68686e8331d",
+      "uid" : "4434f898d858ebeb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -304,38 +277,337 @@
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be footer with text \"Planets\"",
-      "uid" : "329dab9581fef291",
+      "uid" : "10aff7a9da8bcc4e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
+      "status" : "broken",
       "time" : {
-        "start" : 1625167971905,
-        "stop" : 1625167972066,
-        "duration" : 161
+        "start" : 1625223281142,
+        "stop" : 1625223291252,
+        "duration" : 10110
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "Have get attributes from pages",
-      "uid" : "a16080461342ba0b",
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "4675843a141878c8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167649268,
-        "stop" : 1625167649401,
-        "duration" : 133
+        "start" : 1625167881309,
+        "stop" : 1625167882814,
+        "duration" : 1505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "1cac6d401353ea79",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014408141,
+        "stop" : 1626014408287,
+        "duration" : 146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "eb71aff21390bb37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168100390,
+        "stop" : 1625168100467,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "eb389ac8b184afc8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222308699,
+        "stop" : 1625222308751,
+        "duration" : 52
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be \"About\" button",
-      "uid" : "d534cb33929351a1",
+      "uid" : "61ece203df61d2cc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1625167649119,
-        "stop" : 1625167649204,
+        "start" : 1625168100589,
+        "stop" : 1625168100663,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "691a93d345c79abb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014309708,
+        "stop" : 1626014309917,
+        "duration" : 209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "1c7ee1feaddc831",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168100467,
+        "stop" : 1625168100512,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "87e03eebedb5e5cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625222287413,
+        "stop" : 1625222287813,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "2f8bc25e7943d34c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168026139,
+        "stop" : 1625168026230,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "733955a8dd579c6f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167971711,
+        "stop" : 1625167971797,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "2f5c81a9b1d43525",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334685,
+        "stop" : 1625223334894,
+        "duration" : 209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "a8d83abaead26a6d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167971559,
+        "stop" : 1625167971648,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "29022b2714ebb044",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222287008,
+        "stop" : 1625222287410,
+        "duration" : 402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "f00251e5fe3779a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334276,
+        "stop" : 1625223334332,
+        "duration" : 56
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "2f4a87f79e031828",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168100512,
+        "stop" : 1625168100589,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "59ea497c5f86da37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625167883364,
+        "stop" : 1625167883517,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "cb262f7622edcc9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167648960,
+        "stop" : 1625167649027,
+        "duration" : 67
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "9d59fa3e41b915aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168026072,
+        "stop" : 1625168026138,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "544051ff2df6f618",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626014408486,
+        "stop" : 1626014409275,
+        "duration" : 789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "e5e76c2bebb5f151",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014406657,
+        "stop" : 1626014408034,
+        "duration" : 1377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "d7bc8aa76f2a2eb6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222287813,
+        "stop" : 1625222298075,
+        "duration" : 10262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "1e2f113b9e11081f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625223291253,
+        "stop" : 1625223291356,
+        "duration" : 103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "bd49572812cf5bbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014408397,
+        "stop" : 1626014408486,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "1adf92c78ce126ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625168026330,
+        "stop" : 1625168027233,
+        "duration" : 903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "a20d82a5095ba866",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167648875,
+        "stop" : 1625167648960,
         "duration" : 85
       },
       "flaky" : false,
@@ -343,7 +615,7 @@
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "On home page must be footer with text \"Planets\"",
-      "uid" : "922bdc7cc67926a7",
+      "uid" : "497a772128cb0ccb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -355,8 +627,372 @@
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "eb72c4e7af31211",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334333,
+        "stop" : 1625223334426,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "318053c5ffc1c514",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334571,
+        "stop" : 1625223334685,
+        "duration" : 114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "aa8ca1ba7710314",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167971797,
+        "stop" : 1625167971904,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "5cd47afbb30c4abf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625223280084,
+        "stop" : 1625223280525,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "5bf8cebc2cc53bf2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168027234,
+        "stop" : 1625168027292,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "4f3fee2c9dca41e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014408034,
+        "stop" : 1626014408140,
+        "duration" : 106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "f2aca3e1029dc21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014310273,
+        "stop" : 1626014310312,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "c158d6f7b223a6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222521534,
+        "stop" : 1625222521647,
+        "duration" : 113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "3c62d0c610e1b770",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334427,
+        "stop" : 1625223334571,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "8257470c3974a572",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014409276,
+        "stop" : 1626014409334,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "dab9d80635419686",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334077,
+        "stop" : 1625223334276,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "ba6c1f29ecc0be95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168025971,
+        "stop" : 1625168026072,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "6ad70c051f90b3c4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222499625,
+        "stop" : 1625222510165,
+        "duration" : 10540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "e283ceff01b85805",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014310051,
+        "stop" : 1626014310139,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "f46ebbfb7f586f9f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167882884,
+        "stop" : 1625167883005,
+        "duration" : 121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Users\" button",
+      "uid" : "6a744a18044f044b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625222499284,
+        "stop" : 1625222499624,
+        "duration" : 340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
       "name" : "On home page must be \"Home\" button",
-      "uid" : "c66a0c6364140b32",
+      "uid" : "866231645b9c42db",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222498630,
+        "stop" : 1625222499282,
+        "duration" : 652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "7cc1a70359b9b5c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014308075,
+        "stop" : 1626014309707,
+        "duration" : 1632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "f4a3a004e3ea864b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014408288,
+        "stop" : 1626014408397,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "5a4619b3c555be51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625222510166,
+        "stop" : 1625222510672,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "897eee35f4216ae6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222511380,
+        "stop" : 1625222521531,
+        "duration" : 10151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "2bcbfe3c462a6c7f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625222298378,
+        "stop" : 1625222298620,
+        "duration" : 242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Displaying all pages above footer",
+      "uid" : "2f169aef24ffa672",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167972069,
+        "stop" : 1625167973138,
+        "duration" : 1069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be footer with text \"Planets\"",
+      "uid" : "e65fb5cc75c733a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625222298620,
+        "stop" : 1625222308698,
+        "duration" : 10078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Races\" button",
+      "uid" : "6ab2bc5900ade8f2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1625222298075,
+        "stop" : 1625222298378,
+        "duration" : 303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "14abad7e363f369f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167649119,
+        "stop" : 1625167649204,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"About\" button",
+      "uid" : "20bad759e5432633",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168026230,
+        "stop" : 1625168026330,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Planets\" button",
+      "uid" : "6f33b9d89c92d627",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1625223269347,
+        "stop" : 1625223280082,
+        "duration" : 10735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "On home page must be \"Home\" button",
+      "uid" : "841dc5cc14194df7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -369,5 +1005,6 @@
       "parameters" : [ "chrome-91.0.4472.114" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ]
+  } ],
+  "name" : "timeline"
 }

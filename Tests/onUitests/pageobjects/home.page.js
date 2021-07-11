@@ -1,5 +1,6 @@
 
 class HomePage {
+    get PageUrl(){ return 'https://npplanets.herokuapp.com/'}
     get HomePageBtn() { return $('//*[contains(text(), "Home") and @href="/"]')}
     get UserPageBtn() {return $('//*[contains(text(), "Users") and @href="/users"]')}
     get PlanetsPageBtn() {return $('//*[contains(text(), "Planets") and @href="/planets"]')}
@@ -10,6 +11,11 @@ class HomePage {
     get PhotoOnHomePage() {return $('//*[@class="photo"]')}
     get HomeImages(){return  $$('[class="home_images"]>img')}
 
+
+    async goToHomePageUrl(){
+        const openPage = await browser.url(this.PageUrl)
+        return openPage
+    }
     async checkHomePageDisplayed(){
        const checked =  await(
             await this.HomePageBtn).isDisplayed()

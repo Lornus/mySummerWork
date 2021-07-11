@@ -1,0 +1,285 @@
+{
+  "uid" : "544051ff2df6f618",
+  "name" : "On home page must be footer with text \"Planets\"",
+  "fullName" : "Home page tests.On home page must be footer with text \"Planets\"",
+  "historyId" : "a96ae1d08cb1936e4a5d1dbe5d01c87f",
+  "time" : {
+    "start" : 1626014408486,
+    "stop" : 1626014409275,
+    "duration" : 789
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E1\uD83D\uDD1E\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E1\uD83D\uDD1E\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"\n                    at Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:48)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E1\uD83D\uDD1E\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E1\uD83D\uDD1E\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"\n                    at Context.<anonymous> (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/onUitests/specs/home.page.test.js:42:48)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/ownSite/mySummerWork/Tests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626014408487,
+        "stop" : 1626014408499,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c15a37423bbfab1b",
+        "name" : "Request",
+        "source" : "c15a37423bbfab1b.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "3d9cdf16563ab2d5",
+        "name" : "Response",
+        "source" : "3d9cdf16563ab2d5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626014408502,
+        "stop" : 1626014408509,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b5b68beb3a56090",
+        "name" : "Request",
+        "source" : "9b5b68beb3a56090.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "6b62e891395a2195",
+        "name" : "Response",
+        "source" : "6b62e891395a2195.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626014408510,
+        "stop" : 1626014408518,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "185ad473a473076b",
+        "name" : "Request",
+        "source" : "185ad473a473076b.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "4bf6d7f0f093d1b2",
+        "name" : "Response",
+        "source" : "4bf6d7f0f093d1b2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/e42ceffe-7f6e-481f-b178-0ff8be49cebe/text",
+      "time" : {
+        "start" : 1626014408519,
+        "stop" : 1626014408530,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4c99548a57a8322",
+        "name" : "Response",
+        "source" : "d4c99548a57a8322.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1626014408533,
+        "stop" : 1626014409262,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c8b35a3fd0bb5bd",
+        "name" : "Screenshot",
+        "source" : "3c8b35a3fd0bb5bd.png",
+        "type" : "image/png",
+        "size" : 996922
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "On home page must be footer with text \"Planets\""
+  }, {
+    "name" : "package",
+    "value" : "Home page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "427b51b8e0555465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626014310140,
+        "stop" : 1626014310273,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "318053c5ffc1c514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625223334571,
+        "stop" : 1625223334685,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "10aff7a9da8bcc4e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1625223281142,
+        "stop" : 1625223291252,
+        "duration" : 10110
+      }
+    }, {
+      "uid" : "897eee35f4216ae6",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1625222511380,
+        "stop" : 1625222521531,
+        "duration" : 10151
+      }
+    }, {
+      "uid" : "e65fb5cc75c733a5",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//*[@class=\"footer\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1625222298620,
+        "stop" : 1625222308698,
+        "duration" : 10078
+      }
+    }, {
+      "uid" : "109bf261020b3c0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625168100667,
+        "stop" : 1625168100742,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "1adf92c78ce126ad",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E1\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+      "time" : {
+        "start" : 1625168026330,
+        "stop" : 1625168027233,
+        "duration" : 903
+      }
+    }, {
+      "uid" : "b2394c241f1f1056",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E1\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+      "time" : {
+        "start" : 1625167971905,
+        "stop" : 1625167972066,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "59ea497c5f86da37",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E1\"\n                Received: \"\uD83D\uDD1E\uD83D\uDD1EPlanets\uD83D\uDD1E\uD83D\uDD1E\"",
+      "time" : {
+        "start" : 1625167883364,
+        "stop" : 1625167883517,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "497a772128cb0ccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625167649205,
+        "stop" : 1625167649267,
+        "duration" : 62
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "544051ff2df6f618.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

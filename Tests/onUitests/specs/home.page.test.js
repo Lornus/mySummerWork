@@ -4,9 +4,9 @@ const assert = require('assert')
 describe('Home page tests', () => {
 
     it('On home page must be "Home" button', async () => {
-        await browser.url('https://npplanets.herokuapp.com/')
+        console.log("URL", await homePage.goToHomePageUrl())
 
-        expect(await homePage.checkHomePageDisplayed).toBeTruthy()
+        expect(await homePage.checkHomePageDisplayed()).toBeTruthy()
         expect(await homePage.getHomePageAttribute("href")).toBe( "/")
         expect(await homePage.getHomePageText()).toBe( "Home")
 
@@ -38,8 +38,13 @@ describe('Home page tests', () => {
     });
 
     it('On home page must be footer with text "Planets"', async () => {
+<<<<<<< HEAD
         expect(await homePage.checkFooterDisplayed()).toBeTruthy()
         expect(await homePage.getFooterText()).toBe("🔞🔞Planets🔞🔞")
+=======
+        expect(await homePage.checkFooterDisplayed())
+        expect(await homePage.getFooterText()).toBe("🔞🔞Planets1🔞🔞")
+>>>>>>> cb06b5fd (deleting trash)
     });
 
         it('Displaying all pages above footer', async () => {
