@@ -111,10 +111,6 @@ class HomePage {
         return text
     }
 
-    async checkFooterDisplayed(){
-        const displayed = await(
-            await this.Footer).isDisplayed()
-        return displayed
     }
     async getAllDownImages(){
         const imagesArr= await Promise.all((await this.HomeImages).map(async element => {
