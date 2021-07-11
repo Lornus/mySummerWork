@@ -38,13 +38,9 @@ describe('Home page tests', () => {
     });
 
     it('On home page must be footer with text "Planets"', async () => {
-<<<<<<< HEAD
-        expect(await homePage.checkFooterDisplayed()).toBeTruthy()
-        expect(await homePage.getFooterText()).toBe("🔞🔞Planets🔞🔞")
-=======
+
         expect(await homePage.checkFooterDisplayed())
         expect(await homePage.getFooterText()).toBe("🔞🔞Planets1🔞🔞")
->>>>>>> cb06b5fd (deleting trash)
     });
 
         it('Displaying all pages above footer', async () => {
