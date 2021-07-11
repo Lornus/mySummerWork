@@ -111,7 +111,6 @@ class HomePage {
         return text
     }
 
-    }
     async getAllDownImages(){
         const imagesArr= await Promise.all((await this.HomeImages).map(async element => {
             const page_image = await element.isDisplayed()
