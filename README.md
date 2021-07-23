@@ -1,4 +1,4 @@
-# mySummerWork
+# Attends with webdriverio ui tests
 Hi! This is repo with 
 1. My deployed site  - https://npplanets.herokuapp.com/
 2. My tests on JS + WebdriverIO + Chai (mochaJs)
