@@ -6,6 +6,7 @@ before(async function (){
     await homePage.goToHomePageUrl()
 
 })
+    
     it('On home page must be "Home" button', async function ()  {
 
         expect(await homePage.checkHomePageDisplayed()).toBeTruthy()
