@@ -1,4 +1,4 @@
-# mySummerWork
+# Attends in automation 
 Branch with tests (mocha + WebdriverIO + Chai + Allure HTML reports)
 
 Site under testing - https://npplanets.herokuapp.com/ 
