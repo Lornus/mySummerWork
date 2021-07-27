@@ -7,8 +7,8 @@ Hi! This is repo with
 Allure html
 
 
-# Lounching tests 
-For getting information about lounching tests - go to the "tests" branch
+# Launching tests 
+For getting information about launching tests - go to the "tests" branch
 
 # Branches
 1. Site branch - everything about site conf and exactly code of site 
