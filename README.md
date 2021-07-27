@@ -3,7 +3,7 @@ Branch with tests (mocha + WebdriverIO + Chai + Allure HTML reports)
 
 Site under testing - https://npplanets.herokuapp.com/ 
 
-# Lounching tests 
+# Launching tests 
 1. Install node (https://nodejs.org/en/download/) if you don't have.
 2. Clone this repo
 3. git checkout tests 
