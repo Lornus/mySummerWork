@@ -8,7 +8,7 @@ Allure html
 
 
 # Lounching tests 
-For lounching test information go to tests branch
+For getting information about lounching tests - go to the "tests" branch
 
 # Branches
 1. Site branch - everything about site conf and exactly code of site 
