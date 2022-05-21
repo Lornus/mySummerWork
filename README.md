@@ -5,7 +5,7 @@ Hi! This is repo with
 
 # Reporter 
 Allure html
- 
+
 
 # Launching tests 
 For getting information about launching tests - go to the "tests" branch
